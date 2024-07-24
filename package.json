@@ -1,0 +1,20 @@
+{
+	"name": "delta",
+	"main": "main.js",
+	"author": "dFxPhoeniX",
+	"version": "1.2.0",
+	"repository": "https://github.com/dfxphoenix/Delta.git",
+	"description": "A complete code to download for a cool Discord fun and images bot.",
+	"scripts": {
+		"start": "node main.js"
+	},
+	"dependencies": {
+		"canvacord": "^5.4.10",
+		"discord-api-types": "^0.37.92",
+		"discord.js": "^13.17.1",
+		"ejs": "^3.1.10",
+		"express": "^4.19.2",
+		"figlet": "^1.7.0",
+		"ms": "^3.0.0-canary.1"
+	}
+}
