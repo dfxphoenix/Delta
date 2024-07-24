@@ -1,0 +1,33 @@
+module.exports = {
+	app: {
+		px: '!',
+		slashCommands: true,
+		token: 'Token',
+		id: 'ID',
+		privateMode: false,
+		playing: 'fun & images',
+		slogan: 'Best Discord fun & images bot',
+		owner: 'Owner name',
+		color: '#fa1a1a',
+		language: 'en_US',
+		autoLanguage: true,
+		website: {
+			enabled: true,
+			port: 80,
+			ip: '127.0.0.1'
+		}
+	},
+
+	rolesGroup: {
+		Normal: {
+			enabled: false,
+			roleName: ['PRO', 'VIP'],
+			commands: ['ascii', 'flip', 'clyde']
+		},
+		Premium: {
+			enabled: false,
+			roleName: ['VIP'],
+			commands: ['captcha']
+		},
+	},
+};
